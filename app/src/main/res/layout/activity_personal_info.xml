@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Personal_Info"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:onClick="onClickBack"
+            android:backgroundTint="@color/black"
+            app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintStart_toStartOf="parent"            app:srcCompat="@drawable/back" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:layout_marginEnd="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#FF5722"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="onclickSave"
+            android:text="@string/save_button"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:textColor="@color/white"
+        android:text="@string/editPInfo"
+        android:textSize="30sp"
+
+
+        />
+    <EditText
+        android:id="@+id/fnameUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/f_name"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+    <EditText
+        android:id="@+id/lnameUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/last_name"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:padding="4dp"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+
+
+    <EditText
+        android:id="@+id/emailUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:padding="4dp"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+    <EditText
+        android:id="@+id/phoneUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/phoneNo"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:padding="4dp"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+
+
+
+
+</LinearLayout>

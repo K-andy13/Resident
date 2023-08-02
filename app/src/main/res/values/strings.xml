@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">lastone</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="ent_pass">Enter Password</string>
+    <string name="ent_pass2">Confirm Password</string>
+
+    <string name="user_profile">User Profile</string>
+    <string name="per_info">Personal Information</string>
+    <string name="b_his">Booking History</string>
+    <string name="wish">Wishlist</string>
+    <string name="r_and_r">Reviews and Ratings</string>
+    <string name="pref">Preferences</string>
+    <string name="noti">Notifications</string>
+    <string name="student_ID">Student ID</string>
+    <string name="email">Email</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="leave_review">Leave A Review!</string>
+    <string name="password">Password</string>
+    <string-array name="reviewSubject">
+        <item>The App</item>
+        <item>Bel</item>
+        <item>Hostel 1</item>
+        <item>Hostel 2</item>
+
+    </string-array>
+    <string name="selPay">Select Payment Method</string>
+    <string name="full_name">Full Name</string>
+    <string name="search">Search</string>
+    <string name="pay">Payment Methods</string>
+    <string name="loyalty">Rewards Program</string>
+    <string name="f_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="sec">Privacy and Security</string>
+    <string name="editPInfo">Edit Personal Information</string>
+    <string name="noAccount">Don\'t Have an Account?</string>
+    <string name="save_button">Save</string>
+    <string name="home">Home</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="card">Credit Card</string>
+    <string name="momo">Mobile Money</string>
+    <string name="ePay">Online Payment</string>
+    <string name="bookingSuccess">You have successfully booked your hostel</string>
+
+</resources>
