@@ -10,6 +10,7 @@ import android.widget.RadioGroup;
 
 public class cWeath_des extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,11 +18,16 @@ public class cWeath_des extends AppCompatActivity {
     }
 
     public void onClickProceed(View view) {
+
+        bookingSummPro object =new bookingSummPro();
+        bookingSummPro.hallS="CommonWealth Hall";
+        RadioGroup buttonGroup =findViewById(R.id.radioGroupC);
+        RadioButton selected=findViewById(buttonGroup.getCheckedRadioButtonId());
+       bookingSummPro.roomS= String.valueOf(selected.getText());
+
         Intent intent=new Intent(this, MainPayment.class);
         intent.putExtra("c",1);
-
         startActivity(intent);
-
 
     }
 

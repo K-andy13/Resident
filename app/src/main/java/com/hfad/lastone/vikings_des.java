@@ -16,6 +16,11 @@ public class vikings_des extends AppCompatActivity {
     }
 
     public void onClickProceed(View view) {
+        bookingSummPro object =new bookingSummPro();
+        bookingSummPro.hallS="Vikings Hall";
+        RadioGroup buttonGroup =findViewById(R.id.radioGroupV);
+        RadioButton selected=findViewById(buttonGroup.getCheckedRadioButtonId());
+        bookingSummPro.roomS= String.valueOf(selected.getText());
         Intent intent=new Intent(this, MainPayment.class);
         intent.putExtra("c",2);
 

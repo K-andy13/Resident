@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 public class pentagon extends AppCompatActivity {
 
@@ -20,6 +22,11 @@ public class pentagon extends AppCompatActivity {
     }
 
     public void onClickProceed(View view) {
+        bookingSummPro object =new bookingSummPro();
+        bookingSummPro.hallS="Pentagon Hostel";
+        RadioGroup buttonGroup =findViewById(R.id.radioGroupP);
+        RadioButton selected=findViewById(buttonGroup.getCheckedRadioButtonId());
+        bookingSummPro.roomS= String.valueOf(selected.getText());
         Intent intent=new Intent(this, MainPayment.class);
         intent.putExtra("c",3);
 

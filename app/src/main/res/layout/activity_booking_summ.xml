@@ -80,8 +80,7 @@
         <TextView
             android:id="@+id/admiss_date"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
+            android:layout_height="60dp"
             android:hint="Date of admission"
             android:inputType="date"
             android:textAlignment="center"
