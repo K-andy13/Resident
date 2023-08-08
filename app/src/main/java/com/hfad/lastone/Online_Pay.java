@@ -19,4 +19,7 @@ public class Online_Pay extends AppCompatActivity {
         Intent intent = new Intent(this, MainPayment.class);
         startActivity(intent);
     }
+    public void onClickProceed(View view) {
+        Intent intent=new Intent(this, bookingSummPro.class);
+        startActivity(intent);}
 }

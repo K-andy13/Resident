@@ -19,7 +19,11 @@ public class m_money extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onCickConfirm_mm(View view) {
+    public void onClickProceed(View view) {
+        Intent intent=new Intent(this, bookingSummPro.class);
+        intent.putExtra("key","mm");
 
-    }
+        startActivity(intent);}
+
+
 }

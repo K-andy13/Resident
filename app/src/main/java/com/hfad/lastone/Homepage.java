@@ -25,7 +25,12 @@ public class Homepage extends AppCompatActivity {
     }
 
 
+
     public void onClickUser(View view) {Intent intent= new Intent(this,UserProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickPent(View view) {Intent intent =new Intent(this, pentagon.class);
         startActivity(intent);
     }
 }

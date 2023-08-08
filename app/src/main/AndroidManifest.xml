@@ -12,9 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lastone"
         tools:targetApi="31">
+        <activity
+            android:name=".bookingconf"
+            android:exported="false" />
+        <activity
+            android:name=".bookingSummPro"
+            android:exported="false" />
+        <activity
+            android:name=".bookingConf"
+            android:exported="false" />
+        <activity
+            android:name=".pentagon"
+            android:exported="false" />
+
         <service
             android:name=".DelayedMessageService"
-            android:exported="false"></service>
+            android:exported="false" />
 
         <activity
             android:name=".new_pent"

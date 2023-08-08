@@ -66,7 +66,9 @@ public class MainPayment extends AppCompatActivity {
             case 2:Intent intent2=new Intent(this, vikings_des.class);
             startActivity(intent2);
                 break;
-
+            case 3:Intent intent3=new Intent(this, pentagon.class);
+                startActivity(intent3);
+                break;
 
 
         }}

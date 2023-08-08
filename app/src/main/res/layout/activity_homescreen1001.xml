@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".Homepage">
+
     <LinearLayout
         android:id="@+id/lin1"
         android:layout_width="match_parent"
@@ -150,99 +151,26 @@
                 app:layout_constraintTop_toBottomOf="@+id/vhostelimage" />
 
 
-         <!--   <ImageButton
-                android:id="@+id/fivesideimage"
-                android:layout_width="360dp"
-                android:layout_height="140dp"
-                android:scaleType="fitXY"
-android:onClick="onClickPent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.313"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/fiveside"
-                app:srcCompat="@drawable/fiveside" />
+
 -->
-            <TextView
-                android:id="@+id/one"
-                android:layout_width="125dp"
-                android:layout_height="25dp"
-                android:layout_marginTop="20dp"
-                android:text="Gen: "
-
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.066"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/fivesideimage" />
-
 
             <ImageButton
                 android:id="@+id/onePic"
                 android:layout_width="360dp"
                 android:layout_height="140dp"
                 android:scaleType="fitXY"
-
+android:src="@drawable/fiveside"
+                android:onClick="onClickPent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.313"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/fiveside"
                 />
 
-            <TextView
-                android:id="@+id/two"
-                android:layout_width="125dp"
-                android:layout_height="25dp"
-                android:layout_marginTop="20dp"
-
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.066"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/onePic" />
 
 
-            <ImageButton
-                android:id="@+id/twoPic"
-
-                android:layout_width="360dp"
-                android:layout_height="140dp"
-                android:scaleType="fitXY"
-android:background="@color/black"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.313"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/onePic"
-                />
-
-            <TextView android:id="@+id/three"
-                android:layout_width="125dp"
-                android:layout_height="25dp"
-                android:layout_marginTop="20dp"
-                android:text="XXX: "
-
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.066"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/twoPic" />
 
 
-            <ImageButton
-                android:id="@+id/threePic"
-                android:layout_width="360dp"
-                android:layout_height="140dp"
-                android:scaleType="fitXY"
-                android:background="@color/black"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.313"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/twoPic"                app:srcCompat="@drawable/fiveside" />
 
 
 
